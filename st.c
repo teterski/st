@@ -1108,6 +1108,7 @@ kscrollup(const Arg* a)
 
 void
 tscrolldown(int orig, int n, int copyhist)
+{
 	int i;
 	Line temp;
 
